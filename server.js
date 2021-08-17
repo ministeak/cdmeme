@@ -8,8 +8,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-
-
 // ROUTES
 app.use('/api/user', userRoutes);
 
