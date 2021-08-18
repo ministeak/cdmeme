@@ -7,5 +7,6 @@ router.post("/register", authController.signUp);
 // User BDD
 router.get('/', userController.getAllUsers);
 router.get('/:id', userController.userInfo);
+router.put('/:id', userController.updateUser);
 
 module.exports = router;
